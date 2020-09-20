@@ -1,21 +1,21 @@
-#+TITLE: Exploratory Text Analysis and Visualization of Text Data for Research with Open-source Tools
+#+TITLE: Exploratory Text Analysis and Visualization of Text Data for Research with Open Source Tools
 #+AUTHOR: Scott Bailey
 
 * Presenter
 
-[[https://www.lib.ncsu.edu/staff/csbaile3)][Scott Bailey]]
-Digital Research and Scholarship Librarian
-Copyright and Digital Scholarship Center
+[[https://www.lib.ncsu.edu/staff/csbaile3][Scott Bailey]] \\
+Digital Research and Scholarship Librarian \\
+Copyright and Digital Scholarship Center \\
 [[https://www.lib.ncsu.edu][NC State University Libraries]]
 
-* Exploratory text analysis
+* Exploratory text analysis and visualization in the research context
 
-What is exploratory text analysis? Sometimes researchers working on a project approach their text corpora with clear research questions, predetermined methods, and a clear sense of the quality and nature of the corpora. You may know you are going to use some sort of classification method, and the corpus is well-described with metadata and already cleaned. Much of the time, though, we're working with text corpora that haven't been cleaned, and aren't well described. We might have large collections of text from the internet, or be working with a collections of digitized novels that come from multiple sources with varying quality of metadata. You might have a set of a couple of hundred interviews that have been automatically transcribed, and not checked for accuracy. In these cases, even if you know your research questions and have a sense of method or approach, you'll rarely be able to simply start on your analysis, whether you're writing code or not. You first need to take time to explore the text data you have, to get a sense of the quality of the data and their contents. You need to develop a sense of the shape of your data across documents, and understand potential features that might be relevant to your preliminary questions.
+Key take-aways:
+1. Text corpora exist with a wide range of metadata, cleanliness, and quality.
+2. Even when we have a good sense of method or approach, exploring our data, whether quantitative or qualitative, helps us refine research questions, fine-tune methods, and scope our project to be successful.
+3. Voyant and Taguette are free and open source tools that allow you analyze and visualize texts, whether as single documents or whole corpora.
 
-This is exploratory text analysis, this stage where we get to know our texts. Our goal today is to explore two open source tools that don't require the capacity to write code, but that still provide tremendous value in the research process. Depending on your research questions and methods, either tool may actually be sufficient for your research, but either or both could operate as first step in a research process that involves other tools, whether in code or not.
-
-
-* Voyant
+* Voyant - Demo
 ** Installing Voyant vs using the hosted web version
 Download and install page: https://digihum.mcgill.ca/voyant/resources/run-your-own/voyant-server/
 
@@ -46,10 +46,18 @@ Supported file types:
 - Exporting visualizations
 - Exporting data
 
-* Taguette
+* Taguette - Demo
 ** Installing Taguette vs using the hosted web version
 Download and install page: https://www.taguette.org/install.html
 ** File types
+Supported file types:
+- plain text: .txt
+- HTML: .htm, .html
+- Word: .doc, .docx
+- RTF: .rtf
+- PDF: .pdf
+- Open Documents: .odt
+- E-books: .epub, .mobi
 
 ** Coding documents
 - Single level and hierarchical coding
@@ -57,9 +65,11 @@ Download and install page: https://www.taguette.org/install.html
 - Exporting collated tagged texts
 
 * Putting it together: between distant and close reading
-Research, especially with data, is iterative. We learn something from or about our data through visualization or applying some method or tool. With what we learn, we come back to our data with new interpretive possibilities and with new ideas.
 
-Working with Voyant and Taguette together allows us to move between distant reading and close reading. In Voyant we see patterns of language across an entire corpus. We can then move into individual texts with an eye toward the patterns and themes we observed through Voyant. As we discover in individual texts new and surprising language, we can return to the corpus-level analytics of Voyant looking for correlations of those words or patterns of use over time.
+Key take-aways:
+1. Distant reading allows us to analyze and draw conclusions from collections of texts at large scale.
+2. Close reading helps us develop a nuanced understanding of texts.
+3. Research is iterative, and moving between distant and close reading allows us to develop interpretations and conclusions that draw on the whole of a corpus without losing the nuance.
 
 * Resources:
 - Voyant Docs: https://digihum.mcgill.ca/voyant/

@@ -1,49 +1,51 @@
 
 # Table of Contents
 
-1.  [Presenter](#org74233ec)
-2.  [Exploratory text analysis](#org33ee07c)
-3.  [Voyant](#orgddff2dc)
-    1.  [Installing Voyant vs using the hosted web version](#org6debaa8)
-    2.  [File types and corpus building](#org1415ed8)
-    3.  [Exploring the interface](#org202cd54)
-    4.  [Tools of note](#org0184ede)
-    5.  [Exporting results](#orgab3fe6c)
-4.  [Taguette](#org192ebad)
-    1.  [Installing Taguette vs using the hosted web version](#org61e88e5)
-    2.  [File types](#org8a3413f)
-    3.  [Coding documents](#orgd2b0a76)
-    4.  [Exporting results](#orgd2b5ab3)
-5.  [Putting it together: between distant and close reading](#org7c69b03)
-6.  [Resources:](#org74fc53d)
+1.  [Presenter](#org6daaa59)
+2.  [Exploratory text analysis and visualization in the research context](#orgee8ce61)
+3.  [Voyant - Demo](#org1c1f753)
+    1.  [Installing Voyant vs using the hosted web version](#org4b5ce96)
+    2.  [File types and corpus building](#orgfd32108)
+    3.  [Exploring the interface](#org6b66c0e)
+    4.  [Tools of note](#org0011115)
+    5.  [Exporting results](#orge5910cb)
+4.  [Taguette - Demo](#org477a2a2)
+    1.  [Installing Taguette vs using the hosted web version](#org24fc811)
+    2.  [File types](#org44f2f46)
+    3.  [Coding documents](#orgd73bfa4)
+    4.  [Exporting results](#org3aa4373)
+5.  [Putting it together: between distant and close reading](#org6f34ef9)
+6.  [Resources:](#orgedd579a)
 
 
 
-<a id="org74233ec"></a>
+<a id="org6daaa59"></a>
 
 # Presenter
 
-[Scott Bailey](https://www.lib.ncsu.edu/staff/csbaile3))
-Digital Research and Scholarship Librarian
-Copyright and Digital Scholarship Center
+[Scott Bailey](https://www.lib.ncsu.edu/staff/csbaile3)   
+Digital Research and Scholarship Librarian   
+Copyright and Digital Scholarship Center   
 [NC State University Libraries](https://www.lib.ncsu.edu)
 
 
-<a id="org33ee07c"></a>
+<a id="orgee8ce61"></a>
 
-# Exploratory text analysis
+# Exploratory text analysis and visualization in the research context
 
-What is exploratory text analysis? Sometimes researchers working on a project approach their text corpora with clear research questions, predetermined methods, and a clear sense of the quality and nature of the corpora. You may know you are going to use some sort of classification method, and the corpus is well-described with metadata and already cleaned. Much of the time, though, we&rsquo;re working with text corpora that haven&rsquo;t been cleaned, and aren&rsquo;t well described. We might have large collections of text from the internet, or be working with a collections of digitized novels that come from multiple sources with varying quality of metadata. You might have a set of a couple of hundred interviews that have been automatically transcribed, and not checked for accuracy. In these cases, even if you know your research questions and have a sense of method or approach, you&rsquo;ll rarely be able to simply start on your analysis, whether you&rsquo;re writing code or not. You first need to take time to explore the text data you have, to get a sense of the quality of the data and their contents. You need to develop a sense of the shape of your data across documents, and understand potential features that might be relevant to your preliminary questions.
+Key take-aways:
 
-This is exploratory text analysis, this stage where we get to know our texts. Our goal today is to explore two open source tools that don&rsquo;t require the capacity to write code, but that still provide tremendous value in the research process. Depending on your research questions and methods, either tool may actually be sufficient for your research, but either or both could operate as first step in a research process that involves other tools, whether in code or not.
-
-
-<a id="orgddff2dc"></a>
-
-# Voyant
+1.  Text corpora exist with a wide range of metadata, cleanliness, and quality.
+2.  Even when we have a good sense of method or approach, exploring our data, whether quantitative or qualitative, helps us refine research questions, fine-tune methods, and scope our project to be successful.
+3.  Voyant and Taguette are free and open source tools that allow you analyze and visualize texts, whether as single documents or whole corpora.
 
 
-<a id="org6debaa8"></a>
+<a id="org1c1f753"></a>
+
+# Voyant - Demo
+
+
+<a id="org4b5ce96"></a>
 
 ## Installing Voyant vs using the hosted web version
 
@@ -52,7 +54,7 @@ Download and install page: <https://digihum.mcgill.ca/voyant/resources/run-your-
 Advantage in speed and corpus size since you can modify the memory available to Voyant.
 
 
-<a id="org1415ed8"></a>
+<a id="orgfd32108"></a>
 
 ## File types and corpus building
 
@@ -68,7 +70,7 @@ Supported file types:
 -   PDF: .pdf
 
 
-<a id="org202cd54"></a>
+<a id="org6b66c0e"></a>
 
 ## Exploring the interface
 
@@ -78,7 +80,7 @@ Supported file types:
 -   Clicking on a document or word in one tool typically causes the other tools to update accordingly
 
 
-<a id="org0184ede"></a>
+<a id="org0011115"></a>
 
 ## Tools of note
 
@@ -89,7 +91,7 @@ Supported file types:
 -   Topics (Hidden by default)
 
 
-<a id="orgab3fe6c"></a>
+<a id="orge5910cb"></a>
 
 ## Exporting results
 
@@ -97,47 +99,59 @@ Supported file types:
 -   Exporting data
 
 
-<a id="org192ebad"></a>
+<a id="org477a2a2"></a>
 
-# Taguette
+# Taguette - Demo
 
 
-<a id="org61e88e5"></a>
+<a id="org24fc811"></a>
 
 ## Installing Taguette vs using the hosted web version
 
 Download and install page: <https://www.taguette.org/install.html>
 
 
-<a id="org8a3413f"></a>
+<a id="org44f2f46"></a>
 
 ## File types
 
+Supported file types:
 
-<a id="orgd2b0a76"></a>
+-   plain text: .txt
+-   HTML: .htm, .html
+-   Word: .doc, .docx
+-   RTF: .rtf
+-   PDF: .pdf
+-   Open Documents: .odt
+-   E-books: .epub, .mobi
+
+
+<a id="orgd73bfa4"></a>
 
 ## Coding documents
 
 -   Single level and hierarchical coding
 
 
-<a id="orgd2b5ab3"></a>
+<a id="org3aa4373"></a>
 
 ## Exporting results
 
 -   Exporting collated tagged texts
 
 
-<a id="org7c69b03"></a>
+<a id="org6f34ef9"></a>
 
 # Putting it together: between distant and close reading
 
-Research, especially with data, is iterative. We learn something from or about our data through visualization or applying some method or tool. With what we learn, we come back to our data with new interpretive possibilities and with new ideas.
+Key take-aways:
 
-Working with Voyant and Taguette together allows us to move between distant reading and close reading. In Voyant we see patterns of language across an entire corpus. We can then move into individual texts with an eye toward the patterns and themes we observed through Voyant. As we discover in individual texts new and surprising language, we can return to the corpus-level analytics of Voyant looking for correlations of those words or patterns of use over time.
+1.  Distant reading allows us to analyze and draw conclusions from collections of texts at large scale.
+2.  Close reading helps us develop a nuanced understanding of texts.
+3.  Research is iterative, and moving between distant and close reading allows us to develop interpretations and conclusions that draw on the whole of a corpus without losing the nuance.
 
 
-<a id="org74fc53d"></a>
+<a id="orgedd579a"></a>
 
 # Resources:
 
