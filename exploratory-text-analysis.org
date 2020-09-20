@@ -11,19 +11,27 @@ Copyright and Digital Scholarship Center \\
 * Exploratory text analysis and visualization in the research context
 
 Key take-aways:
+
 1. Text corpora exist with a wide range of metadata, cleanliness, and quality.
 2. Even when we have a good sense of method or approach, exploring our data, whether quantitative or qualitative, helps us refine research questions, fine-tune methods, and scope our project to be successful.
 3. Voyant and Taguette are free and open source tools that allow you analyze and visualize texts, whether as single documents or whole corpora.
 
 * Voyant - Demo
+
 ** Installing Voyant vs using the hosted web version
+
+There is a hosted version of Voyant at [[https://voyant-tools.org/][https://voyant-tools.org/]] that has two text corpora available. This is a great way to experiment with and learn Voyant, and can be used for your own corpora.
+
+You can also download and host Voyant yourself, and I recommend this for working with larger corpora and in order to work offline. Since you can adjust the memory available to Voyant, there is an advantage in speed and the size of corpus you can analyze.
+
 Download and install page: https://digihum.mcgill.ca/voyant/resources/run-your-own/voyant-server/
 
-Advantage in speed and corpus size since you can modify the memory available to Voyant.
 ** File types and corpus building
+
 Voyant can handle single documents, either by uploading them or simply copying text into the Voyant home screen input box. It provides even more power, though, when you upload many documents as a corpus.
 
 Supported file types:
+
 - plain text: .txt
 - HTML: .htm, .html
 - XML: .xml
@@ -36,19 +44,32 @@ Supported file types:
 - Getting help for each tool
 - Settings for each tool
 - Clicking on a document or word in one tool typically causes the other tools to update accordingly
+
 ** Tools of note
-- Summary
-- Contexts
-- Correlations
-- Trends
-- Topics (Hidden by default)
+- Summary: basic statistics on your document or your corpus, including most frequent terms and most distinctive terms per document (tf-idf)
+- Contexts: keyword-in-context tool
+- Correlations: Pearson's correlation for pairs of terms in the document/corpus, and significance for the correlation
+- Trends: trends over documents or document chunks for terms according to relative frequency or raw count
+- Topics (Hidden by default): topic modeling by way of the latent dirichlet allocation (LDA) algorithm
+- There are many tools - explore them all!
+
 ** Exporting results
-- Exporting visualizations
-- Exporting data
+
+What formats you can use for export depends on each tools, but in general:
+
+- Exporting visualizations: PNG, HTML, SVG
+- Exporting data: HTML, TSV, JSON
 
 * Taguette - Demo
+
 ** Installing Taguette vs using the hosted web version
+
+Taguette also has a hosted version at [[https://app.taguette.org/][https://app.taguette.org/]]. You can use the hosted for full projects, including collaborating with others on your qualitative analysis project.
+
+You can also download and run Taguette on your own computer, or run your own server. On your own computer, you won't be able to use the collaboration feature, but can still carry out your analysis and export results.
+
 Download and install page: https://www.taguette.org/install.html
+
 ** File types
 Supported file types:
 - plain text: .txt
@@ -59,19 +80,26 @@ Supported file types:
 - Open Documents: .odt
 - E-books: .epub, .mobi
 
-** Coding documents
-- Single level and hierarchical coding
+** Basic workflow
+- Creating a project
+- Adding documents
+- Highlighting text and adding tags
+  - Creating hierarchical tags (parent and child codes)
+
 ** Exporting results
-- Exporting collated tagged texts
+- Exporting collated tagged texts: PDF, HTML, DOCX, XSLX, CSV
+- Exporting your codebook: PDF, HTML, DOCX, XSLX, CSV, XML
 
 * Putting it together: between distant and close reading
 
 Key take-aways:
+
 1. Distant reading allows us to analyze and draw conclusions from collections of texts at large scale.
 2. Close reading helps us develop a nuanced understanding of texts.
 3. Research is iterative, and moving between distant and close reading allows us to develop interpretations and conclusions that draw on the whole of a corpus without losing the nuance.
 
-* Resources:
+* Resources
+
 - Voyant Docs: https://digihum.mcgill.ca/voyant/
 - Voyant Tools Docs: http://docs.voyant-tools.org/tools/
 - UC Santa Cruz Getting Started with Voyant: https://guides.library.ucsc.edu/DSCguides/Voyant
