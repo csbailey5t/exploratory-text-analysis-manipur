@@ -46,11 +46,11 @@ Supported file types:
 - Clicking on a document or word in one tool typically causes the other tools to update accordingly
 
 ** Tools of note
-- Summary: basic statistics on your document or your corpus, including most frequent terms and most distinctive terms per document (tf-idf)
-- Contexts: keyword-in-context tool
-- Correlations: Pearson's correlation for pairs of terms in the document/corpus, and significance for the correlation
-- Trends: trends over documents or document chunks for terms according to relative frequency or raw count
-- Topics (Hidden by default): topic modeling by way of the latent dirichlet allocation (LDA) algorithm
+- *Summary*: basic statistics on your document or your corpus, including most frequent terms and most distinctive terms per document (tf-idf)
+- *Contexts*: keyword-in-context tool
+- *Correlations*: Pearson's correlation for pairs of terms in the document/corpus, and significance for the correlation
+- *Trends*: trends over documents or document chunks for terms according to relative frequency or raw count
+- *Topics* (Hidden by default): topic modeling by way of the latent dirichlet allocation (LDA) algorithm
 - There are many tools - explore them all!
 
 ** Exporting results

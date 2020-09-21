@@ -1,25 +1,25 @@
 
 # Table of Contents
 
-1.  [Presenter](#org2aad75b)
-2.  [Exploratory text analysis and visualization in the research context](#org4b059ec)
-3.  [Voyant - Demo](#org164ca22)
-    1.  [Installing Voyant vs using the hosted web version](#orgf6e39b4)
-    2.  [File types and corpus building](#org3d9b831)
-    3.  [Exploring the interface](#org4677d4d)
-    4.  [Tools of note](#org20f931b)
-    5.  [Exporting results](#org242b184)
-4.  [Taguette - Demo](#org799a46f)
-    1.  [Installing Taguette vs using the hosted web version](#org2c07ac1)
-    2.  [File types](#org87e4f13)
-    3.  [Basic workflow](#org023b6d6)
-    4.  [Exporting results](#org9542213)
-5.  [Putting it together: between distant and close reading](#orgadd42f4)
-6.  [Resources](#orgdeaa660)
+1.  [Presenter](#org73b2d27)
+2.  [Exploratory text analysis and visualization in the research context](#orgf336508)
+3.  [Voyant - Demo](#org03c70d0)
+    1.  [Installing Voyant vs using the hosted web version](#org2242939)
+    2.  [File types and corpus building](#org20dcde1)
+    3.  [Exploring the interface](#orgd9381dc)
+    4.  [Tools of note](#org142c1bd)
+    5.  [Exporting results](#org848f38d)
+4.  [Taguette - Demo](#org0916516)
+    1.  [Installing Taguette vs using the hosted web version](#org636ab12)
+    2.  [File types](#org7c6fc22)
+    3.  [Basic workflow](#org84ac7dc)
+    4.  [Exporting results](#orgccc1ada)
+5.  [Putting it together: between distant and close reading](#orga702e44)
+6.  [Resources](#org5dfa0f6)
 
 
 
-<a id="org2aad75b"></a>
+<a id="org73b2d27"></a>
 
 # Presenter
 
@@ -29,7 +29,7 @@ Copyright and Digital Scholarship Center
 [NC State University Libraries](https://www.lib.ncsu.edu)
 
 
-<a id="org4b059ec"></a>
+<a id="orgf336508"></a>
 
 # Exploratory text analysis and visualization in the research context
 
@@ -40,12 +40,12 @@ Key take-aways:
 3.  Voyant and Taguette are free and open source tools that allow you analyze and visualize texts, whether as single documents or whole corpora.
 
 
-<a id="org164ca22"></a>
+<a id="org03c70d0"></a>
 
 # Voyant - Demo
 
 
-<a id="orgf6e39b4"></a>
+<a id="org2242939"></a>
 
 ## Installing Voyant vs using the hosted web version
 
@@ -56,7 +56,7 @@ You can also download and host Voyant yourself, and I recommend this for working
 Download and install page: <https://digihum.mcgill.ca/voyant/resources/run-your-own/voyant-server/>
 
 
-<a id="org3d9b831"></a>
+<a id="org20dcde1"></a>
 
 ## File types and corpus building
 
@@ -72,7 +72,7 @@ Supported file types:
 -   PDF: .pdf
 
 
-<a id="org4677d4d"></a>
+<a id="orgd9381dc"></a>
 
 ## Exploring the interface
 
@@ -82,19 +82,19 @@ Supported file types:
 -   Clicking on a document or word in one tool typically causes the other tools to update accordingly
 
 
-<a id="org20f931b"></a>
+<a id="org142c1bd"></a>
 
 ## Tools of note
 
--   Summary: basic statistics on your document or your corpus, including most frequent terms and most distinctive terms per document (tf-idf)
--   Contexts: keyword-in-context tool
--   Correlations: Pearson&rsquo;s correlation for pairs of terms in the document/corpus, and significance for the correlation
--   Trends: trends over documents or document chunks for terms according to relative frequency or raw count
--   Topics (Hidden by default): topic modeling by way of the latent dirichlet allocation (LDA) algorithm
+-   **Summary**: basic statistics on your document or your corpus, including most frequent terms and most distinctive terms per document (tf-idf)
+-   **Contexts**: keyword-in-context tool
+-   **Correlations**: Pearson&rsquo;s correlation for pairs of terms in the document/corpus, and significance for the correlation
+-   **Trends**: trends over documents or document chunks for terms according to relative frequency or raw count
+-   **Topics** (Hidden by default): topic modeling by way of the latent dirichlet allocation (LDA) algorithm
 -   There are many tools - explore them all!
 
 
-<a id="org242b184"></a>
+<a id="org848f38d"></a>
 
 ## Exporting results
 
@@ -104,12 +104,12 @@ What formats you can use for export depends on each tools, but in general:
 -   Exporting data: HTML, TSV, JSON
 
 
-<a id="org799a46f"></a>
+<a id="org0916516"></a>
 
 # Taguette - Demo
 
 
-<a id="org2c07ac1"></a>
+<a id="org636ab12"></a>
 
 ## Installing Taguette vs using the hosted web version
 
@@ -120,7 +120,7 @@ You can also download and run Taguette on your own computer, or run your own ser
 Download and install page: <https://www.taguette.org/install.html>
 
 
-<a id="org87e4f13"></a>
+<a id="org7c6fc22"></a>
 
 ## File types
 
@@ -135,7 +135,7 @@ Supported file types:
 -   E-books: .epub, .mobi
 
 
-<a id="org023b6d6"></a>
+<a id="org84ac7dc"></a>
 
 ## Basic workflow
 
@@ -145,7 +145,7 @@ Supported file types:
     -   Creating hierarchical tags (parent and child codes)
 
 
-<a id="org9542213"></a>
+<a id="orgccc1ada"></a>
 
 ## Exporting results
 
@@ -153,7 +153,7 @@ Supported file types:
 -   Exporting your codebook: PDF, HTML, DOCX, XSLX, CSV, XML
 
 
-<a id="orgadd42f4"></a>
+<a id="orga702e44"></a>
 
 # Putting it together: between distant and close reading
 
@@ -164,7 +164,7 @@ Key take-aways:
 3.  Research is iterative, and moving between distant and close reading allows us to develop interpretations and conclusions that draw on the whole of a corpus without losing the nuance.
 
 
-<a id="orgdeaa660"></a>
+<a id="org5dfa0f6"></a>
 
 # Resources
 
