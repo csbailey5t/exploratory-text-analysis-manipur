@@ -14,7 +14,7 @@ Key take-aways:
 
 1. Text corpora exist with a wide range of metadata, cleanliness, and quality.
 2. Even when we have a good sense of method or approach, exploring our data, whether quantitative or qualitative, helps us refine research questions, fine-tune methods, and scope our project to be successful.
-3. Voyant and Taguette are free and open source tools that allow you analyze and visualize texts, whether as single documents or whole corpora.
+3. Voyant and Taguette are free and open source tools that allow you to analyze and visualize texts, whether as single documents or whole corpora.
 
 * Voyant - Demo
 
